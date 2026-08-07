@@ -46,9 +46,6 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
 
 ### 🚀 Principais Projetos
 
-* **[BibliotecaEstudo](https://github.com/sergioguilherme)**: Sistema completo de gerenciamento de biblioteca desenvolvido com Spring Boot, MySQL e Thymeleaf, aplicando boas práticas de arquitetura em camadas, serviços e repositórios.
-* **[CadastroDeAlunosTesteThymleaf](https://github.com/sergioguilherme)**: Aplicação web para registro e controle de estudantes utilizando controllers robustos, validação de dados e templates dinâmicos em Thymeleaf.
-* **[ClientSigaa / Api_TESTSIGACLIENT](https://github.com/sergioguilherme)**: APIs e clientes voltados para integração de dados acadêmicos, focando em versionamento limpo e organização de branches no Git.
 
 ---
 
