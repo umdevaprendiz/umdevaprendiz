@@ -51,16 +51,6 @@ FinancialBank: https://github.com/umdevaprendiz/financialbank Projeto para cria�
 AppStudying: https://github.com/umdevaprendiz/AppStudying Projeto para Organização dos estudos e troca de mensagens entre estudantes.
 
 ---
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sergioguilherme&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sergioguilherme&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="Top Languages" />
-</div>
-
----
-
 ### 📬 Conecte-se Comigo
 
 <div align="center">
