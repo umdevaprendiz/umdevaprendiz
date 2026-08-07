@@ -46,6 +46,7 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
 
 ### 🚀 Principais Projetos
 
+#AppStudying: https://github.com/umdevaprendiz/AppStudying #Projeto para Organização dos estudos e troca de mensagens entre estudantes
 
 ---
 
