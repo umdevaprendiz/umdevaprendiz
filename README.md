@@ -30,7 +30,6 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
 #### **Banco de Dados**
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 </div>
 
 #### **Frontend & Ferramentas**
