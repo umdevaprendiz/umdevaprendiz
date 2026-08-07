@@ -46,7 +46,9 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
 
 ### 🚀 Principais Projetos
 
-AppStudying: https://github.com/umdevaprendiz/AppStudying #Projeto para Organização dos estudos e troca de mensagens entre estudantes
+FinancialBank: https://github.com/umdevaprendiz/financialbank Projeto para criações de transações e controle financeiro de empresas.
+
+AppStudying: https://github.com/umdevaprendiz/AppStudying Projeto para Organização dos estudos e troca de mensagens entre estudantes.
 
 ---
 
@@ -62,10 +64,10 @@ AppStudying: https://github.com/umdevaprendiz/AppStudying #Projeto para Organiza
 ### 📬 Conecte-se Comigo
 
 <div align="center">
-  <a href="https://linkedin.com/in/seu-usuario" target="_blank">
+  <a href="[https://linkedin.com/in/seu-usuario](https://www.linkedin.com/in/s%C3%A9rgioguilhermedesenvolvedor/)" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:seu-email@exemplo.com" target="_blank">
+  <a href="mailto:sergiodeveloperprofissional27@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
