@@ -13,7 +13,7 @@
 ---
 
 ### 👨‍💻 Sobre Mim
-Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Java** e **Spring Boot**. Sou apaixonado por arquitetura de software backend, criação de APIs RESTful robustas e escaláveis, além da aplicação de boas práticas de desenvolvimento (como uso de DTOs, Enums, Spring Security e testes automatizados com Mockito).
+Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Java** e **Spring Boot**. Sou apaixonado por arquitetura de software backend, criação de APIs robustas e escaláveis, além da aplicação de boas práticas de desenvolvimento (como uso de Clean Archeture, Spring Security e Microsserviços).
 
 ---
 
