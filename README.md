@@ -8,9 +8,12 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail Badge"/>
   </a>
 </div>
+
 ---
 ### 👨‍💻 Sobre Mim
 Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Java** e **Spring Boot**. Sou apaixonado por arquitetura de software backend, criação de APIs robustas e escaláveis, além da aplicação de boas práticas de desenvolvimento (como uso de Clean Archeture, Spring Security e Microsserviços).
+
+
 ---
 ### 🛠️ Tecnologias e Ferramentas
 #### **Backend & Linguagens**
@@ -20,10 +23,13 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
   <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white" alt="Spring Security"/>
   <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate/JPA"/>
 </div>
+
 #### **Banco de Dados**
+
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 </div>
+
 #### **Frontend & Ferramentas**
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
@@ -34,10 +40,12 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
 </div>
+
 ---
 ### 🚀 Principais Projetos
 FinancialBank: https://github.com/umdevaprendiz/financialbank Projeto para criações de transações e controle financeiro de empresas.
 AppStudying: https://github.com/umdevaprendiz/AppStudying Projeto para Organização dos estudos e troca de mensagens entre estudantes.
+
 ---
 ### 📬 Conecte-se Comigo
 <div align="center">
