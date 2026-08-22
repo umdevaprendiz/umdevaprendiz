@@ -29,22 +29,10 @@ Estudante de Ciência da Computação e desenvolvedor focado no ecossistema **Ja
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
 </div>
 ---
 ### 🚀 Principais Projetos
-FinancialBank: https://github.com/umdevaprendiz/financialbank Projeto para criações de transações e controle financeiro de empresas.
-AppStudying: https://github.com/umdevaprendiz/AppStudying Plataforma para organização dos estudos e troca de mensagens entre estudantes, com backend em Spring Boot e frontend em React.
----
-### 📬 Conecte-se Comigo
-<div align="center">
-  <a href="https://www.linkedin.com/in/s%C3%A9rgioguilhermedesenvolvedor/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:sergiodeveloperprofissional27@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
+FinancialBank: https://github.com/umdevaprendiz/financialbank Projeto para
