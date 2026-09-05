@@ -2,7 +2,7 @@
   <img src="name-animado.svg" alt="Sérgio Guilherme" width="100%" style="max-width:700px;" />
 </p>
 
-<h3 align="center">Desenvolvedor Full Stack & BackEnd · Estudante de Ciência da Computação (UFPB)</h3>
+<h3 align="center">Desenvolvedor Full Stack & BackEnd · Engenheiro de software (UFPB)</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,react,vite,ts,js,html,css,git,githubactions,docker,maven,postman" />
