@@ -20,7 +20,7 @@
 
 ### Sobre mim
 
-Estudante de Ciência da Computação (UFPB) em busca de estágio em Desenvolvimento Java / Full Stack, com foco em Backend.
+Estudante de Ciência da Computação (UFPB) Desenvolvimento Java / Full Stack, com foco em Backend.
 
 Construí sozinho, do zero, aplicações completas ponta a ponta com Spring Boot e React — da modelagem do banco de dados à automação de deploy em produção — incluindo autenticação real, WebSocket, testes automatizados e CI/CD com Docker.
 
