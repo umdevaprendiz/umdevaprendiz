@@ -45,7 +45,7 @@ Organização de estudos (matérias, cronômetro, linha do tempo) combinada com 
 **[API Bank](https://github.com/umdevaprendiz/financialbank)** — API REST de simulação bancária
 `Java` `Spring Boot` `Spring Security` `Docker` `Railway`
 
-API que simula operações bancárias essenciais: criação de contas, transações e transferências entre contas, com estrutura em camadas (Entities, Repositories, Services, DTOs, Controllers). Controle de acesso por papéis (ADMIN, MANAGER, USER) via Spring Security, transferências atômicas entre contas com `@Transactional` e filtros dinâmicos de transações com Specification. Deploy containerizado com Docker na Railway. Em andamento: testes automatizados (JUnit 5/Mockito), documentação Swagger/OpenAPI e tratamento centralizado de exceções.
+API que simula operações bancárias essenciais: criação de contas, transações e transferências entre contas, com estrutura em camadas (Entities, Repositories, Services, DTOs, Controllers). Controle de acesso por papéis (ADMIN, MANAGER, USER) via Spring Security, transferências atômicas entre contas com `@Transactional` e filtros dinâmicos de transações com Specification. Deploy containerizado com Docker no Render. Em andamento: testes automatizados (JUnit 5/Mockito), documentação Swagger/OpenAPI e tratamento centralizado de exceções.
 
 *Próxima evolução:* transformar o projeto em uma plataforma financeira com componente social — perfil próprio, feed de conquistas/metas financeiras e uma camada de análise de gastos que mostra quanto foi gasto por categoria, quanto pode ser gasto e quanto foi guardado.
 
@@ -54,4 +54,6 @@ API que simula operações bancárias essenciais: criação de contas, transaç�
 ### Formação & idiomas
 
 Ciência da Computação — UFPB *(previsão de conclusão: 2030)* · Técnico em Redes de Computadores — ETEMERB
-Português (nativo) · Inglês (B2) · Espanhol (básico/intermediário)
+· Português (nativo) 
+· Inglês (Superior) 
+· Espanhol (básico/intermediário)
