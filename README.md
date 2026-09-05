@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2500&pause=1200&color=ED8B00&center=true&vCenter=true&width=600&lines=Ol%C3%A1%2C+Olá!+eu+sou+S%C3%A9rgio+Guilherme+%F0%9F%91%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2500&pause=1200&color=ED8B00&center=true&vCenter=true&width=600&lines=Oi%21+meu+nome+%C3%A9+S%C3%A9rgio+Guilherme+%F0%9F%91%8B" alt="Typing SVG" />
 </p>
 <h3 align="center">Desenvolvedor Backend Java & Spring Boot | Estudante de Ciência da Computação (UFPB)</h3>
 
