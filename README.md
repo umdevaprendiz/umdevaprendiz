@@ -1,23 +1,5 @@
-```
-+================================================================================+
-:                 ███████╗███████╗██████╗  ██████╗ ██╗ ██████╗                   :
-:                 ██╔════╝██╔════╝██╔══██╗██╔════╝ ██║██╔═══██╗                  :
-:                 ███████╗█████╗  ██████╔╝██║  ███╗██║██║   ██║                  :
-:                 ╚════██║██╔══╝  ██╔══██╗██║   ██║██║██║   ██║                  :
-:                 ███████║███████╗██║  ██║╚██████╔╝██║╚██████╔╝                  :
-:                 ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝ ╚═════╝                   :
-:                                                                                :
-:     ██████╗ ██╗   ██╗██╗██╗     ██╗  ██╗███████╗██████╗ ███╗   ███╗███████╗    :
-:    ██╔════╝ ██║   ██║██║██║     ██║  ██║██╔════╝██╔══██╗████╗ ████║██╔════╝    :
-:    ██║  ███╗██║   ██║██║██║     ███████║█████╗  ██████╔╝██╔████╔██║█████╗      :
-:    ██║   ██║██║   ██║██║██║     ██╔══██║██╔══╝  ██╔══██╗██║╚██╔╝██║██╔══╝      :
-:    ╚██████╔╝╚██████╔╝██║███████╗██║  ██║███████╗██║  ██║██║ ╚═╝ ██║███████╗    :
-:     ╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝    :
-+================================================================================+
-```
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=2000&color=ED8B00&center=true&vCenter=true&width=500&lines=S%C3%A9rgio+Guilherme" alt="Sérgio Guilherme" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=2000&color=ED8B00&center=true&vCenter=true&width=600&lines=S%C3%A9rgio+Guilherme" alt="Sérgio Guilherme" />
 </p>
 
 <h3 align="center">Desenvolvedor Backend Java & Spring Boot · Estudante de Ciência da Computação (UFPB)</h3>
@@ -28,9 +10,9 @@
 
 <p align="center">
   <sub>
-    <a href="mailto:sergiodeveloperprofissional27@gmail.com">sergiodeveloperprofissional27@gmail.com</a> ·
-    <a href="https://github.com/umdevaprendiz">github.com/umdevaprendiz</a> ·
-    <a href="https://appstudying.onrender.com">appstudying.onrender.com</a>
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="14" height="14" valign="middle"/> <a href="mailto:sergiodeveloperprofissional27@gmail.com">sergiodeveloperprofissional27@gmail.com</a> ·
+    <img src="https://cdn.simpleicons.org/github/9e9e9e" width="14" height="14" valign="middle"/> <a href="https://github.com/umdevaprendiz">github.com/umdevaprendiz</a> ·
+    <img src="https://appstudying.onrender.com/favicon.svg" width="14" height="14" valign="middle"/> <a href="https://appstudying.onrender.com">appstudying.onrender.com</a>
   </sub>
 </p>
 
@@ -50,17 +32,25 @@ Aplico boas práticas de segurança por padrão (isolamento de credenciais, auto
 
 ### Projetos
 
-**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — plataforma de estudos com rede social entre estudantes
+<img src="https://appstudying.onrender.com/favicon.svg" width="16" height="16" valign="middle"/> **[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — plataforma de estudos com rede social entre estudantes
 `Spring Boot 4` `React (Vite)` `MySQL` `Docker` `WebSocket` — [em produção](https://appstudying.onrender.com)
 
-Organização de estudos (matérias, cronômetro, linha do tempo) combinada com um componente social — parceria de estudo, feed de sugestões e chat privado em tempo real. Verificação de e-mail obrigatória, autorização por dono do recurso, rate limiting e proteção contra mass assignment. Deploy real com Dockerfile multi-stage, CI no GitHub Actions e migrations com Flyway. Cobertura de testes unitários e de integração em todas as camadas de serviço.
+AppStudying nasceu de um problema pessoal: estudar sozinho é fácil de abandonar. A plataforma organiza o estudo individual (matérias, cronômetro de sessão com histórico, linha do tempo de progresso) e, ao mesmo tempo, cria um espaço social entre estudantes — parceria de estudo par a par, feed de sugestões e chat privado em tempo real via WebSocket (STOMP/SockJS).
+
+- Segurança orientada a dados sensíveis: verificação de e-mail obrigatória no cadastro, sessão persistida em banco, autorização por dono do recurso em todos os endpoints, rate limiting contra força bruta/spam e proteção contra mass assignment.
+- Ciclo de vida completo de conta: exclusão protegida por confirmação em e-mail e expurgo automático diário de contas inativas via job agendado.
+- Pipeline de deploy real em produção: Dockerfile multi-stage, CI no GitHub Actions (testes com MySQL real + build), migrations versionadas com Flyway e CSRF/CORS configurados.
+- Cobertura de testes unitários (JUnit 5 + Mockito) em todas as camadas de serviço e testes de integração (MockMvc) validando autenticação e controle de acesso.
 
 **[API Bank](https://github.com/umdevaprendiz/financialbank)** — API REST de simulação bancária
 `Java` `Spring Boot` `Spring Security` `Docker` `Railway`
 
-API que simula operações bancárias essenciais: criação de contas, transações e transferências entre contas, com estrutura em camadas (Entities, Repositories, Services, DTOs, Controllers). Controle de acesso por papéis (ADMIN, MANAGER, USER) via Spring Security, transferências atômicas entre contas com `@Transactional` e filtros dinâmicos de transações com Specification. Deploy containerizado com Docker na Railway. Em andamento: testes automatizados (JUnit 5/Mockito), documentação Swagger/OpenAPI e tratamento centralizado de exceções.
+Evoluindo de uma simulação bancária para uma plataforma financeira com componente social — controle financeiro pessoal unido a uma camada social voltada a metas, não à exibição de gastos.
 
-*Próxima evolução:* transformar o projeto em uma plataforma financeira com componente social — perfil próprio, feed de conquistas/metas financeiras e uma camada de análise de gastos que mostra quanto foi gasto por categoria, quanto pode ser gasto e quanto foi guardado.
+- **Perfil próprio:** cada usuário tem um perfil, como uma rede social, mas com posts sobre conquistas financeiras — reserva de emergência formada, dívida quitada, meta de economia batida — em vez de fotos do dia a dia.
+- **Feed e conexões:** possibilidade de seguir outras pessoas e acompanhar essas conquistas em um feed, criando um incentivo social para manter o controle financeiro.
+- **Motor de análise de gastos:** categorização das transações, limite de gasto definido por categoria, cálculo de quanto ainda pode ser gasto no mês e quanto foi efetivamente guardado no período.
+- **Base técnica reaproveitada:** o modelo de dados atual (contas, transações, papéis de usuário) seria estendido para suportar perfis, posts, seguidores e metas, mantendo a mesma autenticação e autorização por papéis já implementadas.
 
 ---
 
