@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=2000&color=ED8B00&center=true&vCenter=true&width=600&lines=S%C3%A9rgio+Guilherme" alt="Sérgio Guilherme" />
+  <img src="name-animado.svg" alt="Sérgio Guilherme" width="100%" style="max-width:700px;" />
 </p>
 
 <h3 align="center">Desenvolvedor Backend Java & Spring Boot · Estudante de Ciência da Computação (UFPB)</h3>

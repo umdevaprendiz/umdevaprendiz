@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1136 378" width="1136" height="378" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" style="max-width:100%; height:auto;">
+<style>
+  :root { --fg: #1f2328; --border: #8b949e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #e6edf3; --border: #6e7681; }
+  }
+  .art { font-size: 24px; font-weight: bold; fill: var(--fg); }
+  .frame { fill: none; stroke: var(--border); stroke-width: 2; stroke-dasharray: 6 5; }
+  @keyframes k0 {
+  0%   { opacity: 0; }
+  4.25% { opacity: 0; }
+  4.55% { opacity: 1; }
+  81.59% { opacity: 1; }
+  81.89% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k1 {
+  0%   { opacity: 0; }
+  6.23% { opacity: 0; }
+  6.53% { opacity: 1; }
+  80.17% { opacity: 1; }
+  80.47% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k2 {
+  0%   { opacity: 0; }
+  8.22% { opacity: 0; }
+  8.52% { opacity: 1; }
+  78.75% { opacity: 1; }
+  79.05% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k3 {
+  0%   { opacity: 0; }
+  10.20% { opacity: 0; }
+  10.50% { opacity: 1; }
+  77.34% { opacity: 1; }
+  77.64% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k4 {
+  0%   { opacity: 0; }
+  12.18% { opacity: 0; }
+  12.48% { opacity: 1; }
+  75.92% { opacity: 1; }
+  76.22% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k5 {
+  0%   { opacity: 0; }
+  14.16% { opacity: 0; }
+  14.46% { opacity: 1; }
+  74.50% { opacity: 1; }
+  74.80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k6 {
+  0%   { opacity: 0; }
+  16.15% { opacity: 0; }
+  16.45% { opacity: 1; }
+  73.09% { opacity: 1; }
+  73.39% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k7 {
+  0%   { opacity: 0; }
+  18.13% { opacity: 0; }
+  18.43% { opacity: 1; }
+  71.67% { opacity: 1; }
+  71.97% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k8 {
+  0%   { opacity: 0; }
+  20.11% { opacity: 0; }
+  20.41% { opacity: 1; }
+  70.25% { opacity: 1; }
+  70.55% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k9 {
+  0%   { opacity: 0; }
+  22.10% { opacity: 0; }
+  22.40% { opacity: 1; }
+  68.84% { opacity: 1; }
+  69.14% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k10 {
+  0%   { opacity: 0; }
+  24.08% { opacity: 0; }
+  24.38% { opacity: 1; }
+  67.42% { opacity: 1; }
+  67.72% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k11 {
+  0%   { opacity: 0; }
+  26.06% { opacity: 0; }
+  26.36% { opacity: 1; }
+  66.01% { opacity: 1; }
+  66.31% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k12 {
+  0%   { opacity: 0; }
+  28.05% { opacity: 0; }
+  28.35% { opacity: 1; }
+  64.59% { opacity: 1; }
+  64.89% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k13 {
+  0%   { opacity: 0; }
+  30.03% { opacity: 0; }
+  30.33% { opacity: 1; }
+  63.17% { opacity: 1; }
+  63.47% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  @keyframes k14 {
+  0%   { opacity: 0; }
+  32.01% { opacity: 0; }
+  32.31% { opacity: 1; }
+  61.76% { opacity: 1; }
+  62.06% { opacity: 0; }
+  100% { opacity: 0; }
+}
+  .L0 { animation: k0 7.06s linear infinite; }
+  .L1 { animation: k1 7.06s linear infinite; }
+  .L2 { animation: k2 7.06s linear infinite; }
+  .L3 { animation: k3 7.06s linear infinite; }
+  .L4 { animation: k4 7.06s linear infinite; }
+  .L5 { animation: k5 7.06s linear infinite; }
+  .L6 { animation: k6 7.06s linear infinite; }
+  .L7 { animation: k7 7.06s linear infinite; }
+  .L8 { animation: k8 7.06s linear infinite; }
+  .L9 { animation: k9 7.06s linear infinite; }
+  .L10 { animation: k10 7.06s linear infinite; }
+  .L11 { animation: k11 7.06s linear infinite; }
+  .L12 { animation: k12 7.06s linear infinite; }
+  .L13 { animation: k13 7.06s linear infinite; }
+  .L14 { animation: k14 7.06s linear infinite; }
+</style>
+<rect class="frame" x="6" y="6" width="1124" height="366" rx="10"/>
+<text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="46.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L1" x="148.00" y="46.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L2" x="268.00" y="46.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██████╗ </tspan><tspan class="ch L3" x="388.00" y="46.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ██████╗ </tspan><tspan class="ch L4" x="523.00" y="46.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██╗</tspan><tspan class="ch L5" x="568.00" y="46.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ██████╗ </tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="72.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔════╝</tspan><tspan class="ch L1" x="148.00" y="72.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔════╝</tspan><tspan class="ch L2" x="268.00" y="72.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══██╗</tspan><tspan class="ch L3" x="388.00" y="72.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██╔════╝ </tspan><tspan class="ch L4" x="523.00" y="72.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L5" x="568.00" y="72.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██╔═══██╗</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="98.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L1" x="148.00" y="98.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">█████╗  </tspan><tspan class="ch L2" x="268.00" y="98.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██████╔╝</tspan><tspan class="ch L3" x="388.00" y="98.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║  ███╗</tspan><tspan class="ch L4" x="523.00" y="98.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L5" x="568.00" y="98.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="124.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚════██║</tspan><tspan class="ch L1" x="148.00" y="124.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══╝  </tspan><tspan class="ch L2" x="268.00" y="124.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══██╗</tspan><tspan class="ch L3" x="388.00" y="124.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan><tspan class="ch L4" x="523.00" y="124.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L5" x="568.00" y="124.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="150.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████║</tspan><tspan class="ch L1" x="148.00" y="150.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L2" x="268.00" y="150.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║  ██║</tspan><tspan class="ch L3" x="388.00" y="150.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">╚██████╔╝</tspan><tspan class="ch L4" x="523.00" y="150.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L5" x="568.00" y="150.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">╚██████╔╝</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L0" x="28.00" y="176.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚══════╝</tspan><tspan class="ch L1" x="148.00" y="176.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚══════╝</tspan><tspan class="ch L2" x="268.00" y="176.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚═╝  ╚═╝</tspan><tspan class="ch L3" x="388.00" y="176.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ╚═════╝ </tspan><tspan class="ch L4" x="523.00" y="176.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">╚═╝</tspan><tspan class="ch L5" x="568.00" y="176.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ╚═════╝ </tspan></text>
+<text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="216.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ██████╗ </tspan><tspan class="ch L7" x="163.00" y="216.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██╗   ██╗</tspan><tspan class="ch L8" x="298.00" y="216.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██╗</tspan><tspan class="ch L9" x="343.00" y="216.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╗     </tspan><tspan class="ch L10" x="463.00" y="216.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╗  ██╗</tspan><tspan class="ch L11" x="583.00" y="216.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L12" x="703.00" y="216.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██████╗ </tspan><tspan class="ch L13" x="823.00" y="216.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">███╗   ███╗</tspan><tspan class="ch L14" x="988.00" y="216.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="242.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██╔════╝ </tspan><tspan class="ch L7" x="163.00" y="242.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan><tspan class="ch L8" x="298.00" y="242.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L9" x="343.00" y="242.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║     </tspan><tspan class="ch L10" x="463.00" y="242.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║  ██║</tspan><tspan class="ch L11" x="583.00" y="242.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔════╝</tspan><tspan class="ch L12" x="703.00" y="242.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══██╗</tspan><tspan class="ch L13" x="823.00" y="242.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">████╗ ████║</tspan><tspan class="ch L14" x="988.00" y="242.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔════╝</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="268.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║  ███╗</tspan><tspan class="ch L7" x="163.00" y="268.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan><tspan class="ch L8" x="298.00" y="268.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L9" x="343.00" y="268.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║     </tspan><tspan class="ch L10" x="463.00" y="268.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████║</tspan><tspan class="ch L11" x="583.00" y="268.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">█████╗  </tspan><tspan class="ch L12" x="703.00" y="268.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██████╔╝</tspan><tspan class="ch L13" x="823.00" y="268.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">██╔████╔██║</tspan><tspan class="ch L14" x="988.00" y="268.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">█████╗  </tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="294.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan><tspan class="ch L7" x="163.00" y="294.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">██║   ██║</tspan><tspan class="ch L8" x="298.00" y="294.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L9" x="343.00" y="294.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║     </tspan><tspan class="ch L10" x="463.00" y="294.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══██║</tspan><tspan class="ch L11" x="583.00" y="294.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══╝  </tspan><tspan class="ch L12" x="703.00" y="294.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══██╗</tspan><tspan class="ch L13" x="823.00" y="294.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">██║╚██╔╝██║</tspan><tspan class="ch L14" x="988.00" y="294.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██╔══╝  </tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="320.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">╚██████╔╝</tspan><tspan class="ch L7" x="163.00" y="320.00" textLength="135.00" lengthAdjust="spacingAndGlyphs">╚██████╔╝</tspan><tspan class="ch L8" x="298.00" y="320.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">██║</tspan><tspan class="ch L9" x="343.00" y="320.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L10" x="463.00" y="320.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║  ██║</tspan><tspan class="ch L11" x="583.00" y="320.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan><tspan class="ch L12" x="703.00" y="320.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">██║  ██║</tspan><tspan class="ch L13" x="823.00" y="320.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">██║ ╚═╝ ██║</tspan><tspan class="ch L14" x="988.00" y="320.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">███████╗</tspan></text>
+  <text class="art" xml:space="preserve"><tspan class="ch L6" x="28.00" y="346.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ╚═════╝ </tspan><tspan class="ch L7" x="163.00" y="346.00" textLength="135.00" lengthAdjust="spacingAndGlyphs"> ╚═════╝ </tspan><tspan class="ch L8" x="298.00" y="346.00" textLength="45.00" lengthAdjust="spacingAndGlyphs">╚═╝</tspan><tspan class="ch L9" x="343.00" y="346.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚══════╝</tspan><tspan class="ch L10" x="463.00" y="346.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚═╝  ╚═╝</tspan><tspan class="ch L11" x="583.00" y="346.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚══════╝</tspan><tspan class="ch L12" x="703.00" y="346.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚═╝  ╚═╝</tspan><tspan class="ch L13" x="823.00" y="346.00" textLength="165.00" lengthAdjust="spacingAndGlyphs">╚═╝     ╚═╝</tspan><tspan class="ch L14" x="988.00" y="346.00" textLength="120.00" lengthAdjust="spacingAndGlyphs">╚══════╝</tspan></text>
+</svg>
