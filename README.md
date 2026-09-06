@@ -20,7 +20,7 @@
 
 ### About me
 
-Computer Science student (UFPB) looking for an internship in Java / Full Stack development, with a focus on Backend.
+Computer Science student (UFPB) looking for an java job opening / Full Stack development.
 
 I've built complete, end-to-end applications on my own, from scratch, with Spring Boot and React — from database modeling to production deploy automation — including real authentication, WebSocket, automated testing, and CI/CD with Docker.
 
