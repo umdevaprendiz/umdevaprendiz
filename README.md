@@ -2,10 +2,10 @@
   <img src="name-animado.svg" alt="Sérgio Guilherme" width="100%" style="max-width:700px;" />
 </p>
 
-<h3 align="center">Desenvolvedor Full Stack & BackEnd · Engenheiro de software (UFPB)</h3>
+<h3 align="center">Java & Spring Boot Backend Developer · Computer Science Student (UFPB)</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,react,vite,ts,js,html,css,git,githubactions,docker,maven,postman" />
+  <img src="https://skillicons.dev/icons?i=java,py,spring,hibernate,mysql,react,vite,ts,js,html,css,git,githubactions,docker,maven,postman" />
 </p>
 
 <p align="center">
@@ -18,43 +18,43 @@
 
 ---
 
-### Sobre mim
+### About me
 
-Estudante de Ciência da Computação (UFPB) Desenvolvimento Java / Full Stack, com foco em Backend.
+Computer Science student (UFPB) looking for an internship in Java / Full Stack development, with a focus on Backend.
 
-Construí sozinho, do zero, aplicações completas ponta a ponta com Spring Boot e React — da modelagem do banco de dados à automação de deploy em produção — incluindo autenticação real, WebSocket, testes automatizados e CI/CD com Docker.
+I've built complete, end-to-end applications on my own, from scratch, with Spring Boot and React — from database modeling to production deploy automation — including real authentication, WebSocket, automated testing, and CI/CD with Docker.
 
-Aplico boas práticas de segurança por padrão (isolamento de credenciais, autorização por dono do recurso, rate limiting, proteção contra mass assignment) e mantenho o código versionado no Git com histórico limpo e organizado.
+I apply security best practices by default (credential isolation, resource-owner authorization, rate limiting, protection against mass assignment) and keep code versioned in Git with a clean, organized history.
 
-**Diferenciais:** autonomia para levar um projeto do zero à produção sem supervisão · segurança e controle de acesso pensados no design, não como algo adicionado depois · cobertura de testes (JUnit 5, Mockito, MockMvc) antes de considerar algo pronto · boa comunicação escrita e facilidade em equipes remotas.
+**Highlights:** autonomy to take a project from zero to production without supervision · security and access control designed in from the start, not bolted on afterward · test coverage (JUnit 5, Mockito, MockMvc) before considering anything done · good written communication and ease working in remote teams.
 
 ---
 
-### Projetos
+### Projects
 
-<img src="https://appstudying.onrender.com/favicon.svg" width="16" height="16" valign="middle"/> **[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — plataforma de estudos com rede social entre estudantes
-`Spring Boot 4` `React (Vite)` `MySQL` `Docker` `WebSocket` — [em produção](https://appstudying.onrender.com)
+<img src="https://appstudying.onrender.com/favicon.svg" width="16" height="16" valign="middle"/> **[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — a study platform with a social network for students
+`Spring Boot 4` `React (Vite)` `MySQL` `Docker` `WebSocket` — [live](https://appstudying.onrender.com)
 
-AppStudying nasceu de um problema pessoal: estudar sozinho é fácil de abandonar. A plataforma organiza o estudo individual (matérias, cronômetro de sessão com histórico, linha do tempo de progresso) e, ao mesmo tempo, cria um espaço social entre estudantes — parceria de estudo par a par, feed de sugestões e chat privado em tempo real via WebSocket (STOMP/SockJS).
+AppStudying came out of a personal problem: studying alone is easy to give up on. The platform organizes individual study (subjects, session timer with history, progress timeline) while also creating a social space between students — peer study partnerships, a suggestions feed, and real-time private chat via WebSocket (STOMP/SockJS).
 
-- Segurança orientada a dados sensíveis: verificação de e-mail obrigatória no cadastro, sessão persistida em banco, autorização por dono do recurso em todos os endpoints, rate limiting contra força bruta/spam e proteção contra mass assignment.
-- Ciclo de vida completo de conta: exclusão protegida por confirmação em e-mail e expurgo automático diário de contas inativas via job agendado.
-- Pipeline de deploy real em produção: Dockerfile multi-stage, CI no GitHub Actions (testes com MySQL real + build), migrations versionadas com Flyway e CSRF/CORS configurados.
-- Cobertura de testes unitários (JUnit 5 + Mockito) em todas as camadas de serviço e testes de integração (MockMvc) validando autenticação e controle de acesso.
+- Security built around sensitive data: mandatory email verification on signup, database-backed sessions, resource-owner authorization on every endpoint, rate limiting against brute force/spam, and protection against mass assignment.
+- Full account lifecycle: deletion protected by email confirmation, and daily automatic purging of inactive accounts via a scheduled job.
+- Real production deploy pipeline: multi-stage Dockerfile, CI on GitHub Actions (tests against real MySQL + build), versioned migrations with Flyway, and CSRF/CORS configured.
+- Unit test coverage (JUnit 5 + Mockito) across every service layer, plus integration tests (MockMvc) validating authentication and access control.
 
-**[API Bank](https://github.com/umdevaprendiz/financialbank)** — API REST de simulação bancária
+**[API Bank](https://github.com/umdevaprendiz/financialbank)** — a banking simulation REST API
 `Java` `Spring Boot` `Spring Security` `Docker` `Railway`
 
-Evoluindo de uma simulação bancária para uma plataforma financeira com componente social — controle financeiro pessoal unido a uma camada social voltada a metas, não à exibição de gastos.
+Evolving from a banking simulation into a financial platform with a social layer — personal finance tracking combined with a social layer built around goals, not showing off spending.
 
-- **Perfil próprio:** cada usuário tem um perfil, como uma rede social, mas com posts sobre conquistas financeiras — reserva de emergência formada, dívida quitada, meta de economia batida — em vez de fotos do dia a dia.
-- **Feed e conexões:** possibilidade de seguir outras pessoas e acompanhar essas conquistas em um feed, criando um incentivo social para manter o controle financeiro.
-- **Motor de análise de gastos:** categorização das transações, limite de gasto definido por categoria, cálculo de quanto ainda pode ser gasto no mês e quanto foi efetivamente guardado no período.
-- **Base técnica reaproveitada:** o modelo de dados atual (contas, transações, papéis de usuário) seria estendido para suportar perfis, posts, seguidores e metas, mantendo a mesma autenticação e autorização por papéis já implementadas.
+- **Own profile:** every user has a profile, like a social network, but with posts about financial milestones — an emergency fund built up, a debt paid off, a savings goal hit — instead of everyday photos.
+- **Feed and connections:** the ability to follow other people and see those milestones in a feed, creating a social incentive to stay on top of your finances.
+- **Spending analysis engine:** transaction categorization, a spending limit per category, and calculating how much is still available to spend this month and how much was actually saved in the period.
+- **Reused technical foundation:** the current data model (accounts, transactions, user roles) would be extended to support profiles, posts, followers, and goals, keeping the same authentication and role-based authorization already in place.
 
 ---
 
-### Formação & idiomas
+### Education & languages
 
-Ciência da Computação — UFPB *(previsão de conclusão: 2030)* · Técnico em Redes de Computadores — ETEMERB
-Português (nativo) · Inglês (B2) · Espanhol (básico/intermediário)
+Computer Science — UFPB *(expected graduation: 2030)* · Networking Technician — ETEMERB
+Portuguese (native) · English (B2) · Spanish (basic/intermediate)
