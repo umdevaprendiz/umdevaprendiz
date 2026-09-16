@@ -42,17 +42,17 @@ AppStudying came out of a personal problem: studying alone is easy to give up on
 - Real production deploy pipeline: multi-stage Dockerfile, CI on GitHub Actions (tests against real MySQL + build), versioned migrations with Flyway, and CSRF/CORS configured.
 - Unit test coverage (JUnit 5 + Mockito) across every service layer, plus integration tests (MockMvc) validating authentication and access control.
 
-**[API Bank](https://github.com/umdevaprendiz/financialbank)** — a banking simulation REST API
-`Java` `Spring Boot` `Spring Security` `Docker` `Railway`
+<img src="https://raw.githubusercontent.com/umdevaprendiz/financialbank/main/frontend/public/icon.png" width="16" height="16" valign="middle"/> FinancialBank — a bank simulator that grew into personal finance tracking and a lightweight social layer
+Java 23 Spring Boot Spring Security MySQL React (Vite) TypeScript Docker
 
-Evolving from a banking simulation into a financial platform with a social layer — personal finance tracking combined with a social layer built around goals, not showing off spending.
+FinancialBank started as a backend portfolio project simulating core banking operations — accounts, typed transactions, atomic transfers — and grew into something broader: the same login also tracks personal spending (manual entries with payment method and a "was it worth it?" reflection) and feeds a lightweight social layer (profile, posts, likes, comments).
 
-- **Own profile:** every user has a profile, like a social network, but with posts about financial milestones — an emergency fund built up, a debt paid off, a savings goal hit — instead of everyday photos.
-- **Feed and connections:** the ability to follow other people and see those milestones in a feed, creating a social incentive to stay on top of your finances.
-- **Spending analysis engine:** transaction categorization, a spending limit per category, and calculating how much is still available to spend this month and how much was actually saved in the period.
-- **Reused technical foundation:** the current data model (accounts, transactions, user roles) would be extended to support profiles, posts, followers, and goals, keeping the same authentication and role-based authorization already in place.
+Security hardened past the basics: DTO-based registration instead of binding the raw entity (closes a mass-assignment hole that let a client spoof id/role), login rate limiting, Bean Validation on every input, and a centralized @RestControllerAdvice so no endpoint leaks a stack trace or an internal exception message.
+Fixed real, non-obvious bugs found by actually running the stack, not just reading the code: a Spring Data REST bean-name collision that crashed the app on boot, a self-invocation call that silently ran a write inside a read-only transaction, and a UserDetails.getPassword() override that was leaking the password hash in every JSON response returning a User.
+One-command local dev (docker compose up) and CI on GitHub Actions that boots the app against a real MySQL service on every push, not a mock.
 
----
+Monorepo: Spring Boot API and the React/TypeScript frontend in one repository, each deployable independently.
+`Java` `Spring Boot` `Spring Security` `MySQL` `React` `TypeScript` `Docker` `CI/CD`
 
 ### Education & languages
 
