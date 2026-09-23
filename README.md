@@ -5,7 +5,7 @@
 <h3 align="center">AI / LLM Engineer · LLMOps &amp; Data · Software Engineer (Java &amp; Spring Boot) · Computer Science Student (UFPB)</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,jupyter,azure,postgres,mysql,java,spring,react,vite,ts,js,html,css,git,githubactions,docker,maven,postman" />
+  <img src="https://skillicons.dev/icons?i=py,azure,postgres,mysql,java,spring,react,vite,ts,js,html,css,git,githubactions,docker,maven,postman" />
 </p>
 
 <p align="center">
