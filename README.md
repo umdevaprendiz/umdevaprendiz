@@ -45,15 +45,15 @@ Self-taught, metrics-driven, and comfortable collaborating with remote teams.
 
 ### AI / LLM &amp; data projects
 
-**[ia-judge](https://github.com/umdevaprendiz/ia-judge)** — explainable AI for criminal sentencing (*dosimetria penal*) 🚧 in progress
-`Python` `LangChain` (planned) `PostgreSQL + pgvector` (planned) `Azure OpenAI` (planned) `Jupyter`
+**[Juris.IA](https://github.com/umdevaprendiz/sergius-ia-judge)** — explainable, deterministic AI for criminal sentencing (*dosimetria penal*) 🟢 in production
+`Python` `FastAPI` `Docker` `GitHub Actions` `Jupyter` `LLM-based fact extraction (planned)`
 
-An AI-assisted system that reads a criminal case description and works out the sentencing range under Brazil's three-phase sentencing method (art. 68 of the Penal Code), citing the real legal provisions behind every number. The core design principle: **LLMs interpret and explain, they never calculate** — a language model reading legal text and inventing numbers or citations is exactly the failure mode this architecture is built to avoid.
+A system that reads a criminal case description in Portuguese, identifies the crime, and works out the sentencing range under Brazil's three-phase sentencing method (art. 68 of the Penal Code), citing the real legal provision behind every number. Core principle: nothing is guessed — every number is pure deterministic math, and every legal suggestion cites an indexed article, never a third-party AI's own word.
 
 - Deterministic sentencing engine (all 3 phases) built as pure, dependency-free Python: immutable value objects, exact fraction arithmetic (no floats — a rounding bug here is a real sentence being wrong), a Strategy pattern for configurable sentencing policies, and a full step-by-step audit trail for every calculation.
-- Built-in legal safeguards as code: sentences never drop below the statutory minimum via mitigating factors (STJ Súmula 231), and the "apply only the largest aggravating/mitigating factor" rule (CP art. 68, sole paragraph) is modeled explicitly rather than left to a prompt.
-- Validated against real judgments in a Jupyter notebook, phase by phase.
-- Planned next: LLM-based fact extraction with mandatory evidence citations for every extracted fact, RAG-grounded legal reasoning over the indexed Penal Code (PostgreSQL + pgvector), and a benchmark against real court decisions.
+- Legal safeguards built in as code: sentences never drop below the statutory minimum via mitigating factors (STJ Súmula 231), and the "apply only the largest aggravating/mitigating factor" rule (CP art. 68, sole paragraph) is modeled explicitly, never left for an AI to apply on its own.
+- Crime-identification agent: BM25 search plus hundreds of hand-written legal indicators over a base of 300+ penal offense types and 5,260 indexed articles (Penal Code, Code of Criminal Procedure, Constitution, Consumer Code, Civil Code, and other statutes) — every suggestion cites the exact article and the case phrase that motivated it, and the user confirms everything before the engine calculates.
+- Validated in a Jupyter notebook: 130 case descriptions with hand-checked legal ground truth (100% accuracy identifying the crime), plus a phase-by-phase check against real court judgments.
 
 **[churn-prediction-ml](https://github.com/umdevaprendiz/churn-prediction-ml)** — customer churn prediction system
 `Python` `pandas` `scikit-learn` `FastAPI` `pytest` `Jupyter` `Power BI`
