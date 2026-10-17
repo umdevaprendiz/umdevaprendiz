@@ -33,7 +33,7 @@ Self-taught, metrics-driven, and comfortable collaborating with remote teams.
 ### Experience
 
 **AI Analyst / AI Engineer (Independent Contractor)** — Independent Consulting
-`Python` `LangChain` `LangGraph` `MLflow` `pytest`
+`Python` `LangChain` `LangGraph` `MLflow` `pytest` `MLOps` `Azure DataBricks`
 
 - Responsible for the administration and maintenance of production AI systems built with LangChain and LangGraph.
 - Structured debugging of Python-based AI pipelines, identifying and fixing failures with the support of automated tests (pytest).
