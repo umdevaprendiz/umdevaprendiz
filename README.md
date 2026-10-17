@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,azure,postgres,mysql,java,spring,react,vite,ts,js" /><br>
-  <img src="https://skillicons.dev/icons?i=html,css,git,githubactions,docker,maven,postman" /><img src="icons/databricks.svg" alt="Databricks" height="48" /><img src="icons/insomnia.svg" alt="Insomnia" height="48" />
+  <img src="https://skillicons.dev/icons?i=html,css,git,githubactions,docker,maven,postman" /><img src="databricks.svg" alt="Databricks" height="48" /><img src="insomnia.svg" alt="Insomnia" height="48" />
 </p>
 
 <p align="center">
