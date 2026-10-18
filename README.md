@@ -34,7 +34,7 @@ Self-taught, metrics-driven, and comfortable collaborating with remote teams.
 ### Experience
 
 **AI Analyst / AI Engineer — Intern**
-`Python` `LangChain` `LangGraph` `MLflow` `pytest` `Databricks` `Azure`
+`Python` `LangChain` `LangGraph` `MLflow` `RAG` `Databricks` `Azure` `Cloud`
 
 - Create and run quality benchmarks for LLM agents: latency, cost per call (tokens), and accuracy rate of the generated answers.
 - Administer and maintain production LLM agents built with LangChain and LangGraph, with structured debugging of Python pipelines and automated tests (pytest).
@@ -74,7 +74,7 @@ A system that reads a criminal case description in Portuguese, identifies the cr
 
 ### Software engineering projects
 
-**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — a study platform with a social network for students (`Spring Boot` `React` `MySQL` `Docker` `WebSocket`) — [live](https://appstudying.onrender.com). Full-stack app built and deployed solo: study-session tracking, study partnerships, study groups with live presence, real-time chat, and an interface in English, Portuguese, and Spanish. Email verification, database-backed sessions, per-resource authorization, and rate limiting, with 159 automated tests and a CI/Docker pipeline running Flyway migrations.
+**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — a study platform with a social network for students (`Spring Boot` `React` `SQL` `Docker` `WebSocket`) — [live](https://appstudying.onrender.com). Full-stack app built and deployed solo: study-session tracking, study partnerships, study groups with live presence, real-time chat, and an interface in English, Portuguese, and Spanish. Email verification, database-backed sessions, per-resource authorization, and rate limiting, with 159 automated tests and a CI/Docker pipeline running Flyway migrations.
 
 **[API Bank](https://github.com/umdevaprendiz/financialbank)** — a banking system with a financial dashboard (`Spring Boot` `Spring Security` `React + TypeScript` `MySQL` `Docker`). RESTful API with role-based access control (admin, manager, user), atomic transfers between accounts, dynamic query filters, and an admin metrics dashboard; deployed on Railway.
 
@@ -83,4 +83,4 @@ A system that reads a criminal case description in Portuguese, identifies the cr
 ### Education &amp; languages
 
 Computer Science — UFPB *(expected graduation: 2030)* · Networking Technician — ETEMERB
-Portuguese (native) · English (B2) · Spanish (basic/intermediate)
+Portuguese (native) · English (B2(Intermediate/Upper)) · Spanish (basic/intermediate)
