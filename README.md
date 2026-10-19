@@ -2,7 +2,7 @@
   <img src="name-animado.svg" alt="Sérgio Guilherme" width="100%" style="max-width:700px;" />
 </p>
 
-<h3 align="center">AI / LLM Engineer · LLMOps &amp; Data · Software Engineer (Java &amp; Spring Boot) · Computer Science Student (UFPB)</h3>
+<h3 align="center"> Software Enginner AI / LLM Engineer · LLMOps &amp; Data · Software Engineer (Java &amp; Spring Boot) · Computer Science Student (UFPB)</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,azure,postgres,mysql,java,spring,react,vite,ts,js" /><br>
