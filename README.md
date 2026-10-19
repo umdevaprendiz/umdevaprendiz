@@ -21,66 +21,54 @@
 
 ### About me
 
-AI/LLM engineering intern focused on LLMOps and data: administering and maintaining production AI agents built with LangChain and LangGraph on Databricks and Azure, creating quality benchmarks (latency, cost per call/tokens, accuracy rate), implementing new AI use cases, and tracking experiments with MLflow.
+AI/LLM engineering intern. My day-to-day is keeping production LLM agents (LangChain and LangGraph, on Databricks and Azure) reliable and measurable: I build the benchmarks that show whether an agent got faster, cheaper, or more accurate (latency, tokens per call, accuracy rate), debug the Python pipelines when it didn't, and implement new AI use cases on top of the existing agents, with every experiment tracked in MLflow.
 
-Outside of work, I build my own AI and data projects end to end — from a local RAG assistant for medicine leaflets to a deterministic legal-sentencing engine and a full ML pipeline for churn prediction — always with the same principle: LLMs read and write, but anything that has to be correct is deterministic, testable, and auditable code, and "I didn't find it" beats an invented answer.
-
-This is backed by a solid software engineering foundation: as a Computer Science student at UFPB, I've built complete end-to-end Java/Spring Boot applications solo, with automated testing, Docker-based CI/CD, and security best practices by default.
-
-Self-taught, metrics-driven, and comfortable collaborating with remote teams.
+Outside of work, I build AI systems where a wrong answer is costly, and I measure them instead of trusting them. The rule I follow: the LLM reads and writes, anything that must be correct is deterministic, tested code, and "I didn't find it" beats an invented answer. On the software side, I build Java/Spring Boot applications solo, from the schema to production.
 
 ---
 
 ### Experience
 
 **AI Analyst / AI Engineer — Intern**
-`Python` `LangChain` `LangGraph` `MLflow` `RAG` `Databricks` `Azure` `Cloud`
+`Python` `LangChain` `LangGraph` `MLflow` `pytest` `Databricks` `Azure`
 
-- Create and run quality benchmarks for LLM agents: latency, cost per call (tokens), and accuracy rate of the generated answers.
-- Administer and maintain production LLM agents built with LangChain and LangGraph, with structured debugging of Python pipelines and automated tests (pytest).
-- Implement AI use cases on top of the existing agents, in the Databricks and Azure environment (including Azure ML Notebooks).
-- Track experiments with MLflow (parameters, metrics, and artifacts) to compare runs.
+- Create and run quality benchmarks for LLM agents: latency, cost per call (tokens), and accuracy rate.
+- Administer and maintain production agents built with LangChain and LangGraph, debugging Python pipelines with automated tests (pytest).
+- Implement AI use cases on the existing agents in Databricks and Azure, tracking experiments with MLflow.
 
 ---
 
 ### AI / LLM &amp; data projects
 
-**[FarmaRAG](https://github.com/umdevaprendiz/farma-rag)** — a pharmacy-counter assistant over medicine leaflets, RAG with a local LLM 🟡 in progress
-`Python` `LangGraph` `FastAPI` `PostgreSQL + pgvector` `Ollama` `bge-m3` `React + TypeScript` `Docker`
+**[FarmaRAG](https://github.com/umdevaprendiz/farma-rag)** — chat assistant that answers questions about medicines from real leaflets, with a verified source or a refusal 🟡 in progress
+`Python` `LangGraph` `FastAPI` `PostgreSQL + pgvector` `Ollama` `React`
 
-A chat assistant that answers questions about medicines from real leaflets (*bulas*), always with a verified source, and refuses when the leaflet doesn't support the answer. It runs entirely on a CPU-only machine: no paid API, no cloud.
+- RAG with bge-m3 embeddings and pgvector over 21 real leaflets, running on a CPU-only machine with no paid API.
+- LangGraph agent that validates citations and the numbers/doses it quotes, and refuses instead of guessing.
+- FastAPI, React chat UI, and 246 automated tests.
 
-- RAG pipeline: PDF → sections → chunks → bge-m3 embeddings (cached) → vector search in PostgreSQL + pgvector, checked against a numpy implementation. 21 real leaflets (906 chunks) plus an ANVISA catalog of 6,999 name/active-ingredient pairs to detect the medicine before calling the LLM.
-- LangGraph agent with 6 nodes and routing decided in code. Structured output (JSON Schema) lets the model cite only the chunks it received; citations, grounding of numbers/doses, and answer relevance are validated, with up to 3 adaptive rounds under a time budget. No unverified answer leaves the graph.
-- Conversation: follow-up questions with context ("and for children?"), clarification questions, an allergy flow that suggests same-class alternatives, and answers copied verbatim from the leaflet where precision matters (doses, interactions).
-- FastAPI (5 endpoints, history of every query with latency and each attempt), React + TypeScript chat UI, 246 automated tests, and latency measured on CPU (~50 tokens/s reading, ~9 tokens/s generating).
+**[Juris.IA](https://github.com/umdevaprendiz/Juris.IA)** — explainable AI for criminal sentencing in Brazil 🟢 in production
+`Python` `FastAPI` `Docker` `GitHub Actions` `Playwright`
 
-**[Juris.IA](https://github.com/umdevaprendiz/Juris.IA)** — explainable, deterministic AI for criminal sentencing (*dosimetria penal*) 🟢 in production
-`Python` `FastAPI` `Docker` `GitHub Actions` `Playwright` `Jupyter` `LLM-based fact extraction (planned)`
+- Deterministic sentencing engine (exact fractions, full audit trail) plus a BM25 agent that identifies the crime over 5,271 legal articles, citing the article behind every suggestion.
+- Benchmarked on 130 cases (right crime ranked first in all) and 46 search questions (89.1% top-1); CI deploys only if tests pass.
 
-A system that reads a criminal case description in Portuguese, identifies the crime, and works out the sentencing range under Brazil's three-phase method (art. 68 of the Penal Code), citing the legal provision behind every number. Nothing is guessed: every number is deterministic math, and every suggestion cites an indexed article.
-
-- Sentencing engine in pure Python: exact fraction arithmetic (no floats), configurable policies (Strategy pattern), a step-by-step audit trail, and legal safeguards modeled as code (STJ Súmula 231, art. 68).
-- Crime-identification agent: BM25 plus hand-written legal indicators over 5,271 indexed articles and 316 offense types; every suggestion cites the article and the case phrase behind it, and the user confirms before the engine calculates. Personal data is anonymized before anything is stored.
-- Validated with 130 case descriptions (the right crime ranked first in all of them), a 46-question search benchmark (89.1% top-1, 100% top-5), and 17 hand-computed sentencing cases. CI runs API and browser (Playwright) tests and deploys only if they pass.
-
-**[churn-prediction-ml](https://github.com/umdevaprendiz/churn-prediction-ml)** — customer churn prediction system
-`Python` `pandas` `scikit-learn` `FastAPI` `pytest` `Jupyter` `Power BI`
-
-- End-to-end ML pipeline: data cleaning, feature engineering, and a leakage-safe preprocessing pipeline; Logistic Regression vs. Random Forest, reaching a 0.80 ROC-AUC (0.804 vs. 0.781).
-- REST API in FastAPI for single and batch predictions, with a pytest suite; Power BI dashboard with real-vs-predicted churn and customer segmentation; exploratory analysis in Jupyter.
+**[churn-prediction-ml](https://github.com/umdevaprendiz/churn-prediction-ml)** — end-to-end churn pipeline (cleaning, features, Logistic Regression vs. Random Forest, 0.80 ROC-AUC) with a FastAPI service and a Power BI dashboard.
+`Python` `pandas` `scikit-learn` `FastAPI` `Power BI`
 
 ---
 
 ### Software engineering projects
 
-**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — a study platform with a social network for students (`Spring Boot` `React` `SQL` `Docker` `WebSocket`) — [live](https://appstudying.onrender.com). Full-stack app built and deployed solo: study-session tracking, study partnerships, study groups with live presence, real-time chat, and an interface in English, Portuguese, and Spanish. Email verification, database-backed sessions, per-resource authorization, and rate limiting, with 159 automated tests and a CI/Docker pipeline running Flyway migrations.
+**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — study platform with a student social network, live at [appstudying.onrender.com](https://appstudying.onrender.com). Built and deployed solo with real-time chat, email-verified accounts, 159 automated tests, and CI.
+`Spring Boot` `React` `MySQL` `Docker` `WebSocket`
 
-**[API Bank](https://github.com/umdevaprendiz/financialbank)** — a banking system with a financial dashboard (`Spring Boot` `Spring Security` `React + TypeScript` `MySQL` `Docker`). RESTful API with role-based access control (admin, manager, user), atomic transfers between accounts, dynamic query filters, and an admin metrics dashboard; deployed on Railway.
+**[API Bank](https://github.com/umdevaprendiz/financialbank)** — banking API with role-based access control, atomic transfers, and an admin metrics dashboard.
+`Spring Boot` `Spring Security` `React + TypeScript` `MySQL`
 
 ---
 
 ### Education &amp; languages
 
 Computer Science — UFPB *(expected graduation: 2030)* · Networking Technician — ETEMERB
-Portuguese (native) · English (B2(Intermediate/Upper)) · Spanish (basic/intermediate)
+Portuguese (native) · English (B2) · Spanish (basic/intermediate)
