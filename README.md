@@ -30,12 +30,13 @@ Outside of work, I build AI systems where a wrong answer is costly, and I measur
 ### Experience
 
 **AI Analyst / AI Engineer — Intern**
-`Python` `LangChain` `LangGraph` `MLflow` `pytest` `Databricks` `Azure`
+`Python` `LangChain` `LangGraph` `MLflow` `Databricks Azure` `AI Training`
 
 - Create and run quality benchmarks for LLM agents: latency, cost per call (tokens), and accuracy rate.
-- Administer and maintain production agents built with LangChain and LangGraph, debugging Python pipelines with automated tests (pytest).
+- Administer and maintain production agents built with LangChain and LangGraph, MLFlow.
 - Implement AI use cases on the existing agents in Databricks and Azure, tracking experiments with MLflow.
-
+-AI Training
+-Endpoints Tests
 ---
 
 ### AI / LLM &amp; data projects
