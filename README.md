@@ -2,7 +2,7 @@
   <img src="name-animado.svg" alt="Sérgio Guilherme" width="100%" style="max-width:700px;" />
 </p>
 
-<h3 align="center"> Software Enginner AI / LLM Engineer · LLMOps &amp; Data · Software Engineer (Java &amp; Spring Boot) · Computer Science Student (UFPB)</h3>
+<h3 align="center">Software Engineer · AI / LLM Engineer · LLMOps &amp; Data · Java &amp; Spring Boot · Computer Science Student (UFPB)</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,azure,postgres,mysql,java,spring,react,vite,ts,js" /><br>
@@ -12,8 +12,7 @@
 <p align="center">
   <sub>
     <img src="https://cdn.simpleicons.org/gmail/EA4335" width="14" height="14" valign="middle"/> <a href="mailto:sergiodeveloperprofissional27@gmail.com">sergiodeveloperprofissional27@gmail.com</a> ·
-    <img src="https://cdn.simpleicons.org/github/9e9e9e" width="14" height="14" valign="middle"/> <a href="https://github.com/umdevaprendiz">github.com/umdevaprendiz</a> ·
-    <img src="https://appstudying.onrender.com/favicon.svg" width="14" height="14" valign="middle"/> <a href="https://appstudying.onrender.com">appstudying.onrender.com</a>
+    <img src="https://cdn.simpleicons.org/github/9e9e9e" width="14" height="14" valign="middle"/> <a href="https://github.com/umdevaprendiz">github.com/umdevaprendiz</a>
   </sub>
 </p>
 
@@ -30,41 +29,38 @@ Outside of work, I build AI systems where a wrong answer is costly, and I measur
 ### Experience
 
 **AI Analyst / AI Engineer — Intern**
-`Python` `LangChain` `LangGraph` `MLflow` `Databricks Azure` `AI Training`
+`Python` `LangChain` `LangGraph` `MLflow` `Databricks` `Azure`
 
 - Create and run quality benchmarks for LLM agents: latency, cost per call (tokens), and accuracy rate.
-- Administer and maintain production agents built with LangChain and LangGraph, MLFlow.
+- Administer and maintain production agents built with LangChain and LangGraph, tracked with MLflow.
 - Implement AI use cases on the existing agents in Databricks and Azure, tracking experiments with MLflow.
--AI Training
--Endpoints Tests
+- AI training.
+- Endpoint tests.
+
 ---
 
 ### AI / LLM &amp; data projects
 
-**[FarmaRAG](https://github.com/umdevaprendiz/farma-rag)** — chat assistant that answers questions about medicines from real leaflets, with a verified source or a refusal 🟡 in progress
+**[FarmaRAG](https://github.com/umdevaprendiz/farma-rag)** — a chat assistant that answers questions about medicines from real package leaflets, always showing its source and refusing when the leaflet doesn't support an answer. It runs locally, with no paid API. 🟡 in progress
 `Python` `LangGraph` `FastAPI` `PostgreSQL + pgvector` `Ollama` `React`
 
-- RAG with bge-m3 embeddings and pgvector over 21 real leaflets, running on a CPU-only machine with no paid API.
-- LangGraph agent that validates citations and the numbers/doses it quotes, and refuses instead of guessing.
-- FastAPI, React chat UI, and 246 automated tests.
+**[DevOps Agent](https://github.com/umdevaprendiz/agents-DevOps)** — an AI agent that finds failures in containers, logs, and configuration, explains the cause, and proposes the fix as a git branch for you to review. It also audits security with 28 rules and runs on a local model, so nothing leaves your network. 🟡 in progress
+`Python` `Ollama` `Docker` `Git` `GitHub Actions`
 
-**[Juris.IA](https://github.com/umdevaprendiz/Juris.IA)** — explainable AI for criminal sentencing in Brazil 🟢 in production
+**[Juris.IA](https://github.com/umdevaprendiz/Juris.IA)** — an AI that helps law students analyze criminal cases: it finds the right crime in the law and shows every step of the sentence calculation, which is done by deterministic code, never by the AI.
 `Python` `FastAPI` `Docker` `GitHub Actions` `Playwright`
 
-- Deterministic sentencing engine (exact fractions, full audit trail) plus a BM25 agent that identifies the crime over 5,271 legal articles, citing the article behind every suggestion.
-- Benchmarked on 130 cases (right crime ranked first in all) and 46 search questions (89.1% top-1); CI deploys only if tests pass.
-
-**[churn-prediction-ml](https://github.com/umdevaprendiz/churn-prediction-ml)** — end-to-end churn pipeline (cleaning, features, Logistic Regression vs. Random Forest, 0.80 ROC-AUC) with a FastAPI service and a Power BI dashboard.
+**[churn-prediction-ml](https://github.com/umdevaprendiz/churn-prediction-ml)** — a model that predicts which customers are likely to cancel and turns it into decisions: tuned decision threshold, customer personas, what-if scenarios, and campaign ROI, with an API and a Power BI dashboard.
 `Python` `pandas` `scikit-learn` `FastAPI` `Power BI`
 
 ---
 
 ### Software engineering projects
 
-**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — study platform with a student social network, live at [appstudying.onrender.com](https://appstudying.onrender.com). Built and deployed solo with real-time chat, email-verified accounts, 159 automated tests, and CI.
+**[AppStudying](https://github.com/umdevaprendiz/AppStudying)** — a study platform where students organize subjects, track study time, connect with study partners, join groups, and chat in real time.
 `Spring Boot` `React` `MySQL` `Docker` `WebSocket`
 
-**[API Bank](https://github.com/umdevaprendiz/financialbank)** — banking API with role-based access control, atomic transfers, and an admin metrics dashboard.
+**[API Bank](https://github.com/umdevaprendiz/financialbank)** — a banking API with accounts, transfers between them, role-based access, and an admin metrics dashboard.
 `Spring Boot` `Spring Security` `React + TypeScript` `MySQL`
 
 ---
